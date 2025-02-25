@@ -1,10 +1,4 @@
 #include "foc.h"
-#include <locale>
-#include <windows.h>
-using namespace std;
-
-
-
 
 
 // Fonction pour lire et afficher les mots d'un fichie
@@ -62,7 +56,7 @@ countdown(3);
 
   string nomFichier = "mehdi.txt"; // Remplacez par le nom de votre fichier
 lireEtAfficherMots(nomFichier, n, m,khrouj,niveau);
-afficheMatrice2(Matric,n, m+1); // Affiche la matrice
+afficheMatrice(Matric,n, m+1); // Affiche la matrice
 
 
 
